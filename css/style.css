@@ -1,0 +1,86 @@
+header {
+    background: #22343d; 
+    padding: 1.2%; 
+    font-size: 48pt;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+content { 
+    margin: 10px 5px 20px 25%; 
+    padding: 5px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: medium;
+}
+nav { 
+    float: left; 
+    border: 1px solid #333; 
+    box-shadow: 2px 3px 4px 2px rgb(63, 61, 61);
+    width: 20%; 
+    padding: 5px; 
+    padding-bottom:500px;
+    margin: 10px 20px 20px 5px; 
+}
+.menu-header{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.menu-item{
+    font-style: normal;
+    box-shadow: 5px 3px 4px 2px gray;
+    font-family: "Lobster", serif;
+    text-align: center;
+    background: rgb(233, 230, 230);
+    color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+}
+.menu-item a:link {
+    color: black;
+}
+.menu-item a:hover {
+    color: black;
+}
+.menu-item a:active {
+    color: black;
+}
+.menu-item a:visited {
+    color: black;
+}
+.thumb img{
+    margin-right: 10px; 
+    margin-bottom: 10px; 
+}
+h1{
+    text-align: center;
+    font-size:32pt;
+    font-weight: bold;
+}
+h2{
+    text-align: center;
+    font-size:24pt;
+    font-weight: bold;
+}
+h3{
+    text-align: left;
+    font-size:20pt;
+    font-weight: bold;
+}
+blockquote{
+    text-align: right;
+}
+p{
+    text-align: justify;
+}
+
+footer {
+    background: rgb(46, 45, 45);
+    padding: 5px;
+    margin-top: 340px;
+    color: #fff; 
+    clear: left; 
+}
